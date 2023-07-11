@@ -1,0 +1,172 @@
+body {
+  background-image: url("/static/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: monospace;
+  color: #0c191479;
+  margin: 0;
+  padding: 0;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.731);
+}
+
+nav {
+  background-color: hsla(150, 6%, 94%, 0.951);
+  padding: 18px 0;
+  font-size: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.profile-image img {
+  width: 75px;
+  height:75px;
+}
+
+.social-icons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 60px;
+}
+
+nav ul li a {
+  color: #3c3b3bd1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #e6cbea;
+}
+
+header, main, footer {
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.project {
+  background-color: #fef7e7b2;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.project h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.contact-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.contact-list img {
+  width: 20px;
+  height: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+footer small {
+  font-size: 12px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .profile-image img {
+    width: 30px;
+    height: 30px;
+  }
+
+  header, main, footer {
+    margin: 20px auto;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .project h2 {
+    font-size: 16px;
+  }
+
+  .project p {
+    font-size: 14px;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+
+  footer small {
+    font-size: 10px;
+  }
+}
